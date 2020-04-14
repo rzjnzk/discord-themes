@@ -8,6 +8,7 @@
 
 #app-mount .app-2rEoOp
 {
+    background-image: url(https://raw.githubusercontent.com/rzjnzk/discord-themes/master/docs/assets/background-default.png);
     background-size: cover;
 }
 
@@ -21,7 +22,16 @@ html, body, .da-titleBar
     background-color: rgba(0, 0, 0, 0.3) !important;
 }
 
+/* Minor correction. */
 .da-sidebar
+{
+    border-radius: 0 !important;
+}
+
+/* Square message box. */
+.da-embedWrapper,
+.scrollableContainer-2NUZem,
+.da-channelTextArea
 {
     border-radius: 0 !important;
 }
