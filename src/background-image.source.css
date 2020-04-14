@@ -1,0 +1,70 @@
+//META{"name":"Holo","description":"","author":"github.com/rzjnzk","version":"0.0.1"}*//{}
+
+/**
+ * @name background-image
+ * @version 1.0.0
+ * @description
+ * @source https://github.com/rzjnzk/discord-themes
+ * @author Robert Zack Jaidyn Norris-Karr <rzjnzk@gmail.com> <https://github.com/rzjnzk>
+**/
+
+#app-mount .app-2rEoOp
+{
+    background-size: cover;
+}
+
+html, body, .da-titleBar
+{
+    background-color: rgba(0, 0, 0) !important;
+}
+
+*::-webkit-scrollbar-thumb
+{
+    background-color: rgba(0, 0, 0, 0.3) !important;
+}
+
+.da-sidebar
+{
+    border-radius: 0 !important;
+}
+
+/* Removes scrollbar 'wrapper'. */
+*::-webkit-scrollbar-track,
+*::-webkit-scrollbar-track-piece,
+#bda-qem-favourite-container .scroller::-webkit-scrollbar,
+#bda-qem-favourite-container .scroller::-webkit-scrollbar-track,
+#bda-qem-favourite-container .scroller::-webkit-scrollbar-track-piece,
+#bda-qem-twitch-container .scroller::-webkit-scrollbar,
+#bda-qem-twitch-container .scroller::-webkit-scrollbar-track,
+#bda-qem-twitch-container .scroller::-webkit-scrollbar-track-piece,
+.emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar,
+.emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track,
+.emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track-piece,
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece
+{
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+
+.da-messagesWrapper
+{
+    margin-bottom: 8px;
+}
+
+.form-2fGMdU
+{
+    background: rgba(0, 0, 0, 0.2);
+}
+
+html, body, .theme-dark
+{
+    --background-primary: rgba(0, 0, 0, 0.2);
+    --background-secondary: rgba(0, 0, 0, 0.2);
+    --background-secondary-alt: rgba(0, 0, 0, 0.2);
+    --background-tertiary: rgba(0, 0, 0, 0.2);
+    --channeltextarea-background: rgba(0, 0, 0, 0.2);
+
+    --background-primary: rgba(0, 0, 0, 0.2);
+    --background-mobile-primary: rgba(0, 0, 0, 0.2);
+    --deprecated-store-bg: rgba(0, 0, 0, 0.2);
+}
