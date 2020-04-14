@@ -1,15 +1,7 @@
-/**
- * @name Discord background image theme
- * @version 1.0.0
- * @description
- * @source https://github.com/rzjnzk/discord-themes
- * @author Robert Zack Jaidyn Norris-Karr <rzjnzk@gmail.com> <https://github.com/rzjnzk>
-**/
-
 #app-mount .app-2rEoOp
 {
-    background-image: url(https://raw.githubusercontent.com/rzjnzk/discord-themes/master/docs/assets/background-default.png);
-    background-size: cover;
+    background-image: url("https://raw.githubusercontent.com/rzjnzk/discord-themes/master/docs/assets/background-default.png") !important;
+    background-size: cover !important;
 }
 
 html, body, .da-titleBar
@@ -24,14 +16,6 @@ html, body, .da-titleBar
 
 /* Minor correction. */
 .da-sidebar
-{
-    border-radius: 0 !important;
-}
-
-/* Square message box. */
-.da-embedWrapper,
-.scrollableContainer-2NUZem,
-.da-channelTextArea
 {
     border-radius: 0 !important;
 }
