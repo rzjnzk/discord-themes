@@ -6,12 +6,12 @@
  * @author Robert Zack Jaidyn Norris-Karr <rzjnzk@gmail.com> <https://github.com/rzjnzk>
 */
 
-@import url("https://raw.githubusercontent.com/rzjnzk/discord-themes/master/src/BackgroundImage.css");
+@import url("https://rzjnzk.github.io/discord-themes/src/BackgroundImage.source.css");
 
 #app-mount .app-2rEoOp
 {
     /* ********************************************************************* */
     /* Change the following image url to change the themes background image. */
     /* ********************************************************************* */
-    background-image: url("https://raw.githubusercontent.com/rzjnzk/discord-themes/master/docs/assets/background-default.png");
+    background-image: url("https://rzjnzk.github.io/discord-themes/docs/assets/background-default.png");
 }
