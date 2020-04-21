@@ -11,3 +11,10 @@
 {
     width: 350px;
 }
+
+.name-3_Dsmg,
+.da-name
+{
+    /* Set max width for compatibility with `ChannelNameWrap` theme. */
+    max-width: 250px !important;
+}

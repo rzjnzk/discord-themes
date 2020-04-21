@@ -9,11 +9,13 @@
 .name-3_Dsmg,
 .da-name
 {
-    max-width: 250px;
+    max-width: 140px;
     margin: 3px 0 3px 0;
 }
 
-.da-containerDefault, .wrapper-1ucjTd, .content-3at_AU
+.da-containerDefault,
+.wrapper-1ucjTd,
+.content-3at_AU
 {
     min-height: 32px;
     height: auto;

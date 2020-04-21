@@ -8,11 +8,19 @@
 
 @import url("https://rzjnzk.github.io/discord-themes/src/styles/WiderChannelSidebar.theme.css");
 
+/*  */
+
 .sidebar-2K8pFh.da-sidebar,
 .bannerImage-1jOskm
 {
-    /* ****************************************************************** */
-    /* Change the following pixel value to set the channel sidebar width. */
-    /* ****************************************************************** */
+    /* CONFIGURATION PROPERTY: Channel sidebar width. */
     width: 350px;
+}
+
+/* Set max width for compatibility with `ChannelNameWrap` theme. */
+.name-3_Dsmg,
+.da-name
+{
+    /* CONFIGURATION PROPERTY: Change the following pixel value to the above width setting value minus 100px if using `ChannelNameWrap` theme. */
+    max-width: 250px !important;
 }
