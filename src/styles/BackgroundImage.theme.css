@@ -1,6 +1,14 @@
+/**
+ * @name BackgroundImage
+ * @version 1.0.0
+ * @description Allows the use of a background image behind the default layout.
+ * @source https://github.com/rzjnzk/discord-themes
+ * @author Robert Zack Jaidyn Norris-Karr <rzjnzk@gmail.com> <https://github.com/rzjnzk>
+*/
+
 #app-mount .app-2rEoOp
 {
-    background-image: url("https://rzjnzk.github.io/discord-themes/docs/assets/background-default.png");
+    background-image: url("https://rzjnzk.github.io/discord-themes/docs/assets/background-default.jpg");
     background-size: cover;
 }
 

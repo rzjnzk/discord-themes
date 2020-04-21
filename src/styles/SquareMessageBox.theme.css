@@ -1,9 +1,14 @@
 /**
- * @name Square Message Box
+ * @name SquareMessageBox
  * @version 1.0.0
  * @description
  * @source https://github.com/rzjnzk/discord-themes
  * @author Robert Zack Jaidyn Norris-Karr <rzjnzk@gmail.com> <https://github.com/rzjnzk>
 */
 
-@import url("https://rzjnzk.github.io/discord-themes/src/SquareMessageBox.source.css");
+.da-embedWrapper,
+.scrollableContainer-2NUZem,
+.da-channelTextArea
+{
+    border-radius: 0 !important;
+}

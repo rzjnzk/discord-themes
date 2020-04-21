@@ -1,0 +1,35 @@
+/**
+ * @name ChannelNameWrap
+ * @version 1.0.0
+ * @description
+ * @source https://github.com/rzjnzk/discord-themes
+ * @author Robert Zack Jaidyn Norris-Karr <rzjnzk@gmail.com> <https://github.com/rzjnzk>
+*/
+
+.name-3_Dsmg,
+.da-name
+{
+    max-width: 250px;
+    margin: 3px 0 3px 0;
+}
+
+.da-containerDefault, .wrapper-1ucjTd, .content-3at_AU
+{
+    min-height: 32px;
+    height: auto;
+}
+
+.da-name,
+.name-3_Dsmg,
+.containerDefault-1ZnADq,
+.da-containerDefault
+{
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    text-overflow: clip;
+    white-space: normal;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    height: auto;
+    box-sizing: border-box;
+}
